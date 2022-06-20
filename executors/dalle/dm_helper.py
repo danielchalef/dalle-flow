@@ -16,12 +16,14 @@ from vqgan_jax.modeling_flax_vqgan import VQModel
 # DALLE_MODEL = "dalle-mini/dalle-mini/kvwti2c9:latest"
 # dtype = jnp.float32
 #
-# # dalle-mega
-# DALLE_MODEL = 'dalle-mini/dalle-mini/mega-1:latest'
-# dtype=jnp.float32
+# dalle-mega
+#DALLE_MODEL = 'dalle-mini/dalle-mini/mega-1:latest'
+#DALLE_MODEL = '/dalle/.cache/models/dalle-mega-1'
+#dtype=jnp.float32
 
 # dall-mega-fp16
-DALLE_MODEL = "dalle-mini/dalle-mini/mega-1-fp16:latest"
+#DALLE_MODEL = "dalle-mini/dalle-mini/mega-1-fp16:latest"
+DALLE_MODEL = '/dalle/.cache/models/dalle-mega-fp16'
 dtype = jnp.float16
 
 DALLE_COMMIT_ID = None
